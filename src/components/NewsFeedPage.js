@@ -17,7 +17,7 @@ function NewsFeedPage() {
     const fetchData = await fetch(newsDataAPI);
     const json = await fetchData.json();
     setNewsData(json.articles);
-    console.log(json.articles);
+  //  console.log(json.articles);
   };
 
   useEffect(() => {
