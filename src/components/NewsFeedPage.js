@@ -16,7 +16,7 @@ function NewsFeedPage() {
     setActiveNewsCard((activeNewsCard + 1) % data.articles.length);
   };
 
-  // Adding efficient User Experience by implementing Shimmer, Error....
+  // Adding efficient User Experience by implementing Shimmer, Error Message....
 
   if (error) return <div>{error}</div>;
 
@@ -36,8 +36,6 @@ function NewsFeedPage() {
             </div>
           );
         })}
-
-        {/* implementing swipe feature so to navigate to next feed */}
 
         <button
           className="m-2 px-6 py-2 bg-green-300"

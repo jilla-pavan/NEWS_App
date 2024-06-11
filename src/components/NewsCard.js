@@ -3,7 +3,8 @@ import { imgNotFound } from "../utils/constants";
 
 function NewsCard({ newsData }) {
   //  console.log(newsData);
-
+  
+  // accessing the data
   const { urlToImage, title, description } = newsData;
 
   return (
