@@ -9,7 +9,7 @@ function NewsFeedPage() {
 
   const { data, error } = useSWR(newsDataAPI_URL, fetcher);
 
-  // code related to navigate to next card
+  // code related to navigate to next card onClick
 
   const [activeNewsCard, setActiveNewsCard] = useState(0);
   const handleNextClick = () => {
@@ -38,7 +38,7 @@ function NewsFeedPage() {
         })}
 
         <button
-          className="m-2 px-6 py-2 bg-green-300"
+          className="m-2 px-6 py-2 bg-green-300 rounded-lg"
           onClick={handleNextClick}
         >
           Next

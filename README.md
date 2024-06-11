@@ -21,6 +21,18 @@
 
 
 
+# changes Made in App 
+
+- Implemented the fetch functionality in an efficient way using "useSWR"
+- advantages of using useSWR -
+     Automatic Caching and Revalidation
+     Update Data Easily
+     Automatic Refreshing
+     Error and Loading States
+     Dont need to use state variables
+
+
+
 
 
 
