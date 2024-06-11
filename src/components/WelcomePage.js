@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import SwipeControl from "./SwipeControl";
 
 function WelcomePage() {
   return (
